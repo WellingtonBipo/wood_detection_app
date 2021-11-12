@@ -1,0 +1,42 @@
+PODS:
+  - camera (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+  - TensorFlowLiteC (2.2.0)
+  - tflite (1.1.2):
+    - Flutter
+    - TensorFlowLiteC
+
+DEPENDENCIES:
+  - camera (from `.symlinks/plugins/camera/ios`)
+  - Flutter (from `Flutter`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - TensorFlowLiteC (= 2.2.0)
+  - tflite (from `.symlinks/plugins/tflite/ios`)
+
+SPEC REPOS:
+  trunk:
+    - TensorFlowLiteC
+
+EXTERNAL SOURCES:
+  camera:
+    :path: ".symlinks/plugins/camera/ios"
+  Flutter:
+    :path: Flutter
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  tflite:
+    :path: ".symlinks/plugins/tflite/ios"
+
+SPEC CHECKSUMS:
+  camera: 3164201dc344383e62282964016528c4f5a9ad50
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+  TensorFlowLiteC: b3ab9e867b0b71052ca102a32a786555b330b02e
+  tflite: 7acd11db0915e2d90ab90474413068568eb605f0
+
+PODFILE CHECKSUM: a15cfb744912f53c9867a9ca44e183712eba8028
+
+COCOAPODS: 1.11.2
